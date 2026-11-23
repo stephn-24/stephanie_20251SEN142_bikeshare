@@ -128,6 +128,37 @@ The demand indicators will be based on historical data rather than live bicycle 
 
 7. Oracle. (n.d.). *PL/SQL Language Reference – Oracle AI Database 26ai*. https://docs.oracle.com/en/database/oracle/oracle-database/26/lnpls/
 
----
 
 **GitHub Repository:** https://github.com/stephn-24/stephanie_20251SEN142_bikeshare
+
+
+ Phase I – Business Process Modeling
+
+### Selected Business Process
+**Historical Bike-Sharing Demand Analysis and Reporting Process**
+
+This process describes how historical bike-sharing data is uploaded, validated, stored, analysed and presented through an Oracle APEX dashboard.
+
+**Purpose and Expected Outcome:** The process addresses the need to organise and analyse historical rental data to identify demand patterns. Its expected outcome is reliable historical demand information that supports operational decision-making.
+
+### Actors and Responsibilities
+1. **Data Administrator:** Selects, uploads and corrects the dataset.
+2. **Oracle APEX Application:** Receives uploaded data, displays validation errors and presents dashboard results.
+3. **Oracle Database and PL/SQL:** Stores and validates records, analyses rental information and generates demand indicators.
+4. **Operations Manager / Analyst:** Reviews results and uses them to support operational decisions.
+
+### Data Operations
+- **CREATE:** Import records into staging tables, load valid records and generate demand indicators.
+- **RETRIEVE:** Validate records, analyse rental information and retrieve dashboard results.
+- **UPDATE:** Update validation status.
+- **DELETE:** Not applicable to the normal process described in this model.
+
+### Modeling Tool
+- **Tool:** draw.io (diagrams.net)
+- **Diagram type:** UML Activity Diagram with swimlanes.
+
+### Published Diagram
+View Bike-Sharing Business Process Diagram
+### Supporting Documents
+- [Business Process Diagram PDF](docs/business_process/business_process_diagram.pdf)
+- [Business Process Explanation PDF](docs/business_process/business_process_explanation.pdf)
