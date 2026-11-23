@@ -131,9 +131,9 @@ The demand indicators will be based on historical data rather than live bicycle 
 **GitHub Repository:** https://github.com/stephn-24/stephanie_20251SEN142_bikeshare
 
 
-### Phase I – Business Process Modeling
+## Phase I – Business Process Modeling
 
-## Selected Business Process
+### Selected Business Process
 **Historical Bike-Sharing Demand Analysis and Reporting Process**
 
 This process describes how historical bike-sharing data is uploaded, validated, stored, analysed and presented through an Oracle APEX dashboard.
